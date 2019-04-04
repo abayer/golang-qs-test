@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   repository: gcr.io/jenkinsxio/golang-qs-test
-  tag: 0.0.2
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: golang-qs-test
